@@ -1,5 +1,5 @@
 {
-  "name": "react-native-app-intro-v2",
+  "name": "react-native-app-intro-v3",
   "version": "2.1.2",
   "description": "react-native-app-intro is a react native plugin implementing a parallax effect welcome page using base on react-native-swiper , similar to the one found in Google's app like Sheet, Drive, Docs...",
   "main": "AppIntro.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sh1n1x/react-native-app-intro.git"
+    "url": "git+https://github.com/Praggie/react-native-app-intro.git"
   },
-  "author": "Sh1n1x <cecc.anthony@gmail.com> (https://www.shinix.me)",
+  "author": "praggie",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sh1n1x/react-native-app-intro/issues"
+    "url": "https://github.com/Praggie/react-native-app-intro/issues"
   },
-  "homepage": "https://github.com/Sh1n1x/react-native-app-intro#readme",
+  "homepage": "https://github.com/Praggie/react-native-app-intro#readme",
   "dependencies": {
     "assign-deep": "^0.4.6",
     "prop-types": "^15.6.0",
