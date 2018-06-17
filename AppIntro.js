@@ -269,6 +269,7 @@ export default class AppIntro extends Component {
       nodes = root.map((node, i) => this.renderChild(node, pageIndex, `${index}_${i}`));
     }
     let animatedChild = children;
+    if (children.type.displayName != 'Text') {
     if (level !== 0) {
       animatedChild = (
         <Animated.View key={index} style={[children.props.style, transform]}>
@@ -282,6 +283,17 @@ export default class AppIntro extends Component {
         </View>
       );
     }
+  }else{
+    if (level !== 0) {
+      animatedChild = (
+        <Animated.View key={index} style={[transform]}>
+          {nodes}
+        </Animated.View>
+      );
+    } else {
+      animatedChild = <View key={index}>{nodes}</View>;
+    }
+  }
     return animatedChild;
   }
 
